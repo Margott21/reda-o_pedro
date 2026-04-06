@@ -1,0 +1,12 @@
+h1 {
+  font-family: 'Georgia', serif;
+  color: #2c3e50;
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #3498db; /* Linha sutil embaixo */
+  padding-bottom: 10px;
+}
+
+p{
+    text-align: center;
+}
