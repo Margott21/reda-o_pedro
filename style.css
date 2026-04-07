@@ -1,16 +1,42 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    /* Aqui está o destaque com borda que você pediu */
+    border: 3px solid #2c3e50; 
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
 h1 {
-  font-family: 'Georgia', serif;
-  color: #2c3e50;
-  text-align: center;
-  font-size: 2.5rem;
-  border-bottom: 2px solid #3498db; /* Linha sutil embaixo */
-  padding-bottom: 10px;
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
 }
 
-h2{
+h2 {
+    color: #e74c3c;
+    font-size: 1.2rem;
     text-align: center;
 }
 
-p{
-    text-align: center;
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+strong {
+    color: #000000;
 }
